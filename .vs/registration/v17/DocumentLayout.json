@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MCA project\\asp.net\\registration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|D:\\MCA project\\asp.net\\registration\\registration\\views\\student\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|solutionrelative:registration\\views\\student\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__MCA_PROJECT_ASP.NET_REGISTRATION_REGISTRATION_APP_DATA_STUDENTDATA.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|d:\\mca project\\asp.net\\registration\\registration\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|solutionrelative:registration\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|d:\\mca project\\asp.net\\registration\\registration\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|solutionrelative:registration\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|d:\\mca project\\asp.net\\registration\\registration\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|solutionrelative:registration\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|D:\\MCA project\\asp.net\\registration\\registration\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9990D1D-26F8-4384-AAE3-D69B42CD0101}|registration\\registration.csproj|solutionrelative:registration\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\MCA project\\asp.net\\registration\\registration\\Views\\student\\index.cshtml",
+              "RelativeDocumentMoniker": "registration\\Views\\student\\index.cshtml",
+              "ToolTip": "D:\\MCA project\\asp.net\\registration\\registration\\Views\\student\\index.cshtml",
+              "RelativeToolTip": "registration\\Views\\student\\index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T17:44:00.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\MCA project\\asp.net\\registration\\registration\\Views\\student\\login.cshtml",
+              "RelativeDocumentMoniker": "registration\\Views\\student\\login.cshtml",
+              "ToolTip": "D:\\MCA project\\asp.net\\registration\\registration\\Views\\student\\login.cshtml",
+              "RelativeToolTip": "registration\\Views\\student\\login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T15:16:39.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\MCA project\\asp.net\\registration\\registration\\Models\\User.cs",
+              "RelativeDocumentMoniker": "registration\\Models\\User.cs",
+              "ToolTip": "D:\\MCA project\\asp.net\\registration\\registration\\Models\\User.cs",
+              "RelativeToolTip": "registration\\Models\\User.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:27:56.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__MCA_PROJECT_ASP.NET_REGISTRATION_REGISTRATION_APP_DATA_STUDENTDATA.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-19T13:54:35.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "registration.cshtml",
+              "DocumentMoniker": "D:\\MCA project\\asp.net\\registration\\registration\\Views\\student\\registration.cshtml",
+              "RelativeDocumentMoniker": "registration\\Views\\student\\registration.cshtml",
+              "ToolTip": "D:\\MCA project\\asp.net\\registration\\registration\\Views\\student\\registration.cshtml",
+              "RelativeToolTip": "registration\\Views\\student\\registration.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T06:38:58.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "studentController.cs",
+              "DocumentMoniker": "D:\\MCA project\\asp.net\\registration\\registration\\Controllers\\studentController.cs",
+              "RelativeDocumentMoniker": "registration\\Controllers\\studentController.cs",
+              "ToolTip": "D:\\MCA project\\asp.net\\registration\\registration\\Controllers\\studentController.cs",
+              "RelativeToolTip": "registration\\Controllers\\studentController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwCcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:38:12.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

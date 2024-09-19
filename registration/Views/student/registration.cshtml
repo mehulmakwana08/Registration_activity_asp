@@ -1,0 +1,107 @@
+﻿@model registration.Models.User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .error-message {
+            color: red;
+        }
+
+        .strength-meter {
+            height: 5px;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .weak {
+            background-color: red;
+        }
+
+        .medium {
+            background-color: orange;
+        }
+
+        .strong {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h2 class="text-center">Register</h2>
+                @using (Html.BeginForm("Registration", "Student", FormMethod.Post, new { id = "registrationForm" }))
+                {
+                    @Html.ValidationSummary(true)
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.FullName)
+                        @Html.TextBoxFor(m => m.FullName, new { @class = "form-control", placeholder = "Enter your full name", required = "required", style = "width: 100%; max-width: 100%;" })
+                        @Html.ValidationMessageFor(m => m.FullName, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Username)
+                        @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Choose a username", required = "required", style = "width: 100%; max-width: 100%;" })
+                        @Html.ValidationMessageFor(m => m.Username, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.City)
+                        @Html.TextBoxFor(m => m.City, new { @class = "form-control", placeholder = "Your city", required = "required", style = "width: 100%; max-width: 100%;" })
+                        @Html.ValidationMessageFor(m => m.City, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email)
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "example@domain.com", title = "Enter a valid email address", required = "required", type = "email", style = "width: 100%; max-width: 100%;" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Phone)
+                        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", placeholder = "Your phone number", required = "required", type = "tel", pattern = @"^\+?[1-9]\d{1,14}$", title = "Please enter a valid phone number", style = "width: 100%; max-width: 100%;" })
+                        @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.DateOfBirth)
+                        @Html.TextBoxFor(m => m.DateOfBirth, new { @class = "form-control", type = "date", required = "required", style = "width: 100%; max-width: 100%;" })
+                        @Html.ValidationMessageFor(m => m.DateOfBirth, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender:</label><br />
+                        @Html.RadioButtonFor(m => m.Gender, "male", new { required = "required" }) Male
+                        @Html.RadioButtonFor(m => m.Gender, "female", new { required = "required" }) Female
+                        @Html.ValidationMessageFor(m => m.Gender, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password)
+                        @Html.PasswordFor(m => m.Password, new
+                        {
+                            @class = "form-control",
+                            placeholder = "Create a password",
+                            oninput = "checkPasswordStrength(this.value)",
+                            required = "required",
+                            style = "width: 100%; max-width: 100%;"
+                        })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "error-message text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
