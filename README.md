@@ -21,12 +21,12 @@ To get a copy of the project up and running on your local machine for developmen
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+https://github.com/mehulmakwana08/Registration_activity_asp.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd your-repo-name
+Registration_activity_asp
 ```
 Open the project in Visual Studio.
 
